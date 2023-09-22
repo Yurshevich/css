@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.ccc {
+
+    max-width: 1026px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #fafafa;
+    height: 50px;
+}
+
+.banner img {
+    height: 270px;
+}
+
+.menu {
+    margin: 10px 0;
+    height: 40px;
+    font-size: 18px;
+    line-height: 41px;
+}
+
+.menu img {
+    float: left;
+    margin-left: 30px;
+    height: 40px;
+}
+
+.menu nav {
+    float: right;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-left: 22px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.menu p {
+    float: right;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.sss {
+    height: 200px;
+    background-size: 1026px;
+}
+
+h2 {
+    margin: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bbb .prod-elements,
+.clock .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vvv {
+    width: 230px;
+    height: 350px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.vvv-elements {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1028px;
+}
+
+.clock .vvv-elements div p {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.clock .vvv-elements div img {
+    height: 220px;
+    margin-top: 10px;
+}
+
+.ddd {
+    height: 250px;
+    background-color: #800202;
+    color: #fff;
+    padding: 0 120px;
+}
+
+.ddd form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ddd h3 {
+    padding-top: 75px;
+    text-align: start;
+    margin-left: 0;
+}
+
+.ddd input {
+    background-color: white;
+    padding: 10px 10px;
+    color: #b8b5b5;
+    border-radius: 5px;
+    border: none;
+    width: 235px;
+    font-size: 14pt;
+}
+
+.ddd button {
+    border-radius: 5px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    width: 235px;
+    border: 1px solid white;
+    color: white;
+    background-color: #640d0d;
+    font-size: 14pt;
+}
+
+.text p {
+    padding: 0 100px 40px;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 22px;
+    font-size: 14px;
+}
