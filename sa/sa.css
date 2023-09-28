@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.ccc {
+
+    max-width: 1037px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #fafafa;
+    height: 50px;
+}
+
+.banner img {
+    height: 700px;
+    width: 1037px;
+}
+
+.menu {
+    margin: 10px 0;
+    height: 40px;
+    font-size: 20px;
+    line-height: 41px;
+    height: 80px;
+    background-color: #efb0f7;
+}
+.menu2{
+    height: 75px;
+    background-color: #f9cfff;
+    padding: 0 400px;
+    font-size: 22px;
+}
+.menu2 button{
+    border-radius: 5px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    width: 200px;
+    border: 1px solid white;
+    color: white;
+    background-color: #ff00ae;
+    font-size: 14pt;
+   
+}
+.menu2 input{
+    background-color: #ffffff;;
+    padding: 5px 5px;
+    color: #000000;
+    border-radius: 5px;
+    border: none;
+    width: 190px;
+    font-size: 14pt;
+}
+
+.menu img {
+    float: left;
+    margin-left: 65px;
+    height: 67px;
+}
+
+.menu nav {
+    float: left;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.menu p {
+    float: right;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.sss {
+    height: 200px;
+    background-size: 1026px;
+}
+
+h2 {
+    margin: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bbb .prod-elements,
+.cx .content {
+    display: flex;
+    justify-content: space-between;
+}
+.bbb h3{
+    padding-top: 20px;
+    text-align: start;
+    margin-left: 0;
+    color: #fb009b;
+}
+.text h3{
+    padding-top: 10px;
+    text-align: start;
+    margin-left: 0;
+    color: #fb009b;
+}
+.vvv {
+    width: 232px;
+    height: 355px;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.vvv form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.vvv button{
+    border-radius:4px;
+    padding: 6.5px 6.5px;
+    text-transform: capitalize;
+    width: 250px;
+    border: 1px solid white;
+    color: white;
+    background-color: #9d96ff;
+    font-size: 8pt;
+   
+}
+
+.vvv-elements {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1028px;
+}
+
+.cx .vvv-elements div p {
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.cx .vvv-elements div img {
+    height: 220px;
+    margin-top: 10px;
+}
+
+.ddd {
+    height: 250px;
+    background-color: #df83cd;
+    color: #fff;
+    padding: 0 120px;
+}
+.ddd form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ddd h3 {
+    padding-top: 75px;
+    text-align: start;
+    margin-left: 0;
+    
+}
+
+.ddd input {
+    background-color: #feffff;;
+    padding: 10px 10px;
+    color: #000000;
+    border-radius: 5px;
+    border: none;
+    width: 235px;
+    font-size: 14pt;
+}
+
+.ddd button {
+    border-radius: 5px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    width: 235px;
+    border: 1px solid white;
+    color: white;
+    background-color: #ff00ae;
+    font-size: 14pt;
+}
+
+.text p {
+    padding: 0 100px 40px;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 22px;
+    font-size: 14px;
+}
