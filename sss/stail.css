@@ -1,0 +1,180 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 1920px;
+}
+.header {
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    margin-top: 20px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.menu {
+    margin-top: 16px;
+    width: 1920px;
+}
+
+.menu ul {
+    text-align: center;
+}
+
+.menu ul li {
+    margin: 0 auto;
+    list-style-type: none;
+    margin-left: 50px;
+    align-items: center;
+    text-align: center;
+    display: inline;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(113, 66, 156);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.banner {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.banner img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin: 30px;
+    text-align: center;
+
+}
+
+.ta {
+    
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    margin-right: 40px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.50);
+    background-color: #FFF;
+    justify-content: space-between;
+}
+
+.tovar img {
+    position: relative;
+    margin: 0px 15px;
+    height: 200px;
+    width: 200px;
+}
+
+.nov {
+
+    margin: 0 auto;
+    padding: 5px 5px;
+    width: 1180px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 90px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.sum {
+    margin: 0;
+    padding-top: 15px;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 5px 5px;
+    font-style: normal;
+    align-items: center;
+}
+
+
+.qqqq {
+
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.name {
+    text-transform: uppercase;
+}
+.main {
+    
+    width: 1920px;
+    margin: 0 auto;
+margin-left: 290px;
+}
+
+form {
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+}
+
+form fieldset {
+
+    width: 500px;
+    height: 400px;
+}
+
+
+input {
+
+    width: 200px;
+    border-radius: 5px;
+    height: 20px;
+
+}
+
+.napes {
+    text-align: center;
+}
+
+.field {
+    display: block;
+    justify-content: right;
+
+}
+
+
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 300px;
+    border-color: #000000;
+}
+
+footer {
+    height: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 22px;
+    font-size: 18px;
+}
