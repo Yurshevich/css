@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+    width: 500px;
+    margin: 0 auto;
+
+        .banner{
+            margin-bottom: 10px;
+            width: 100%;
+            position: relative;
+
+                img{
+                    width: 100%;
+                    height: 225px;
+                }
+
+                .text_on_banner{
+                    position: absolute;
+                    top: 10px;
+                    left: 10px;
+                    background-color: rgba(0, 0, 0, 0.37);
+                    color: #fff;
+                    padding: 5px;
+
+                    .city{
+                        font-size: 30px;
+                    }
+                    .descr{
+                        font-size: 22px;
+                    }
+
+                    .city, .descr{
+                        font-weight: 600;
+                    }
+                }
+        }
+
+        .bron{
+            width: 100%;
+            background-color: rgb(230, 230, 230);
+
+                h3{
+                    color: rgb(69, 77, 145);
+                    font-weight: 500;
+                    padding: 10px;
+                }
+        }
+
+        .places{
+            border-radius: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+                .block_p{
+                    width: 95%;
+                    background-color: #fff;
+                    display: flex;
+                    margin-bottom: 10px;
+
+                        img{
+                            height: 50px;
+                            width: 50px;
+                            margin: 5px;
+                            border-radius: 5px;
+                        }
+                        .right{
+                            margin-left: 7px;
+                        }
+                        .guest{
+                            font-size: 14px;
+                            padding-top: 10px;
+                        }
+
+                        .live{
+                            margin-top: 5px;
+                            font-size: 14px;
+                            color: rgb(0, 89, 255);
+                        }
+                }
+        }
+}
